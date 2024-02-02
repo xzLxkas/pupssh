@@ -11,4 +11,5 @@ sudo systemctl restart ssh
 
 # Ausgabe der Erfolgsmeldung in grünem Text
 echo -e "\e[32mSSH Key erfolgreich installiert\e[0m"
-rm ssh.sh
+
+rm ssh.sh -r
